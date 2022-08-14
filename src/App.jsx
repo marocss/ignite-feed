@@ -1,8 +1,15 @@
-import { useState } from 'react'
+import { Header } from './components/Header'
+import { Post } from './Post'
 
 function App() {
   return (
-   <h1>Hi</h1>
+    <>
+      <Header />
+      <Post 
+        author='Marcos L'
+        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda qui veritatis expedita voluptatem, illo provident ducimus neque? Dolorem facere dolorum rem modi nulla impedit odit molestiae ipsa, aliquam pariatur?"
+      />
+    </>
   )
 }
 
