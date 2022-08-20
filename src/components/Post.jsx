@@ -7,7 +7,7 @@ const jobTitle = 'Investor | Developer'
 export const Post = (props) => {
   return (
     <article className={styles.post}>
-      <header>
+      <header className={styles.postHeader}>
         <div className={styles.author}>
           <img src={avatarPic} className={styles.avatar} />
 
@@ -24,6 +24,11 @@ export const Post = (props) => {
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         <p>Minima, maxime nulla. Voluptatibus, quisquam consequatur.</p>
         <p>Unde facere atque ipsam? Fuga eaque impedit fugit accusamus? Nulla amet necessitatibus beatae minus deleniti? Et corporis vel culpa quasi officiis sint.</p>
+        <p>
+          👉
+          {' '}
+          <a href="http://" target="_blank" rel="noopener noreferrer">site.com</a>
+        </p>
         <p>
           <a href="http://" target="_blank" rel="noopener noreferrer">#lorem</a>
           {' '}
